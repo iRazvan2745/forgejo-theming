@@ -15,7 +15,17 @@ Main Forgejo theme colors.
 ![Mocha theme preview](./preview/mocha-theme.png)
 
 ```css
-@import url("https://jsr.io/@irazvan2745/forgejo-theming/modules/mocha-theme.css");
+@import url("https://cdn.jsdelivr.net/gh/irazvan2745/forgejo-theming/modules/mocha-theme.css");
+```
+
+### `neutral-theme.css`
+
+Neutral OKLCH dark theme based on the CSS tokens.
+
+![Neutral theme preview](./preview/neutral-theme.svg)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/irazvan2745/forgejo-theming/modules/neutral-theme.css");
 ```
 
 ### `syntax-highlighting.css`
@@ -25,7 +35,7 @@ Chroma code highlighting colors.
 ![Syntax highlighting preview](./preview/syntax-highlighting.png)
 
 ```css
-@import url("https://jsr.io/@irazvan2745/forgejo-theming/modules/syntax-highlighting.css");
+@import url("https://cdn.jsdelivr.net/gh/irazvan2745/forgejo-theming/modules/syntax-highlighting.css");
 ```
 
 ### `material-icon.css`
@@ -35,7 +45,7 @@ Material-style repository file icons.
 ![Material icon preview](./preview/material-icon.png)
 
 ```css
-@import url("https://jsr.io/@irazvan2745/forgejo-theming/modules/material-icon.css");
+@import url("https://cdn.jsdelivr.net/gh/irazvan2745/forgejo-theming/modules/material-icon.css");
 ```
 
 ## Install Modules
@@ -47,12 +57,18 @@ sudo mkdir -p /opt/forgejo/css
 sudo nano /opt/forgejo/css/theme-rizz.css
 ```
 
-Add the modules you want
+Add the modules you want from JSR. Pick one base theme, then add the optional modules you want.
 
 ```css
-@import url("https://jsr.io/@irazvan2745/forgejo-theming/modules/mocha-theme.css");
-@import url("https://jsr.io/@irazvan2745/forgejo-theming/modules/syntax-highlighting.css");
-@import url("https://jsr.io/@irazvan2745/forgejo-theming/modules/material-icon.css");
+@import url("https://cdn.jsdelivr.net/gh/irazvan2745/forgejo-theming/modules/neutral-theme.css");
+@import url("https://cdn.jsdelivr.net/gh/irazvan2745/forgejo-theming/modules/syntax-highlighting.css");
+@import url("https://cdn.jsdelivr.net/gh/irazvan2745/forgejo-theming/modules/material-icon.css");
+```
+
+To use the mocha theme instead, swap the first import:
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/irazvan2745/forgejo-theming/modules/mocha-theme.css");
 ```
 
 ## Docker Setup
