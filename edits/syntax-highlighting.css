@@ -1,0 +1,264 @@
+/* Syntax highlighting for Forgejo's Chroma-rendered file views. */
+.chroma .bp {
+    color: #fabd2f !important;
+}
+.chroma .c,
+.chroma .c1,
+.chroma .ch,
+.chroma .cm {
+    color: #8f877f !important;
+}
+.chroma .cp {
+    color: #8ab87e !important;
+}
+.chroma .cpf {
+    color: #8fb3d2 !important;
+}
+.chroma .cs {
+    color: #b6a0df !important;
+}
+.chroma .dl {
+    color: #8fb3d2 !important;
+}
+.chroma .gd {
+    color: #ffffff !important;
+    background-color: #6a3029 !important;
+}
+.chroma .ge {
+    color: #e0ba68 !important;
+}
+.chroma .gh {
+    color: #e4a064 !important;
+}
+.chroma .gi {
+    color: #ffffff !important;
+    background-color: #344f2d !important;
+}
+.chroma .go {
+    color: #8f877f !important;
+}
+.chroma .gp {
+    color: #f3efe8 !important;
+}
+.chroma .gr {
+    color: #e06e60 !important;
+}
+.chroma .gs {
+    color: #f3efe8 !important;
+}
+.chroma .gt {
+    color: #e06e60 !important;
+}
+.chroma .gu {
+    color: #b8b96f !important;
+}
+.chroma .il {
+    color: #8fb3d2 !important;
+}
+.chroma .k {
+    color: #e06e60 !important;
+}
+.chroma .kc {
+    color: #8fb3d2 !important;
+}
+.chroma .kd {
+    color: #e06e60 !important;
+}
+.chroma .kn {
+    color: #e4a064 !important;
+}
+.chroma .kp {
+    color: #8ab87e !important;
+}
+.chroma .kr {
+    color: #e06e60 !important;
+}
+.chroma .kt {
+    color: #dc99b3 !important;
+}
+.chroma .m,
+.chroma .mb,
+.chroma .mf,
+.chroma .mh,
+.chroma .mi,
+.chroma .mo {
+    color: #8fb3d2 !important;
+}
+.chroma .n {
+    color: #eaddcf !important;
+}
+.chroma .na,
+.chroma .nb {
+    color: #e0ba68 !important;
+}
+.chroma .nc {
+    color: #e4a064 !important;
+}
+.chroma .nd {
+    color: #8ab87e !important;
+}
+.chroma .ne {
+    color: #e06e60 !important;
+}
+.chroma .nf,
+.chroma .ni {
+    color: #e0ba68 !important;
+}
+.chroma .nl {
+    color: #e06e60 !important;
+}
+.chroma .nn {
+    color: #eaddcf !important;
+}
+.chroma .no {
+    color: #8fb3d2 !important;
+}
+.chroma .nt {
+    color: #e06e60 !important;
+}
+.chroma .nv {
+    color: #f3efe8 !important;
+}
+.chroma .nx {
+    color: #d0c6bd !important;
+}
+.chroma .o {
+    color: #e06e60 !important;
+}
+.chroma .ow {
+    color: #8ab87e !important;
+}
+.chroma .p {
+    color: #cfc6bd !important;
+}
+.chroma .s,
+.chroma .s1,
+.chroma .s2 {
+    color: #b8b96f !important;
+}
+.chroma .sa {
+    color: #e4a064 !important;
+}
+.chroma .sb {
+    color: #b8b96f !important;
+}
+.chroma .sc {
+    color: #e4a064 !important;
+}
+.chroma .sd {
+    color: #b8b96f !important;
+}
+.chroma .se {
+    color: #e4a064 !important;
+}
+.chroma .sh {
+    color: #b8b96f !important;
+}
+.chroma .si {
+    color: #e4a064 !important;
+}
+.chroma .sr {
+    color: #b6a0df !important;
+}
+.chroma .ss {
+    color: #e4a064 !important;
+}
+.chroma .sx {
+    color: #e4a064 !important;
+}
+.chroma .vc,
+.chroma .vg,
+.chroma .vi {
+    color: #8fb3d2 !important;
+}
+.chroma .w {
+    color: #7f7770 !important;
+}
+
+/* Syntax highlighting for Forgejo's CodeMirror-backed editor views. */
+.CodeMirror.cm-s-default .cm-property,
+.CodeMirror.cm-s-paper .cm-property {
+    color: #8ab87e !important;
+}
+.CodeMirror.cm-s-default .cm-header,
+.CodeMirror.cm-s-paper .cm-header {
+    color: #8fb3d2 !important;
+}
+.CodeMirror.cm-s-default .cm-quote,
+.CodeMirror.cm-s-paper .cm-quote {
+    color: #8ab87e !important;
+}
+.CodeMirror.cm-s-default .cm-keyword,
+.CodeMirror.cm-s-paper .cm-keyword {
+    color: #e06e60 !important;
+}
+.CodeMirror.cm-s-default .cm-atom,
+.CodeMirror.cm-s-paper .cm-atom {
+    color: #dc99b3 !important;
+}
+.CodeMirror.cm-s-default .cm-number,
+.CodeMirror.cm-s-paper .cm-number {
+    color: #8fb3d2 !important;
+}
+.CodeMirror.cm-s-default .cm-def,
+.CodeMirror.cm-s-paper .cm-def {
+    color: #f3efe8 !important;
+}
+.CodeMirror.cm-s-default .cm-variable-2,
+.CodeMirror.cm-s-paper .cm-variable-2 {
+    color: #70bbae !important;
+}
+.CodeMirror.cm-s-default .cm-variable-3,
+.CodeMirror.cm-s-paper .cm-variable-3 {
+    color: #8ab87e !important;
+}
+.CodeMirror.cm-s-default .cm-comment,
+.CodeMirror.cm-s-paper .cm-comment {
+    color: #8f877f !important;
+}
+.CodeMirror.cm-s-default .cm-string,
+.CodeMirror.cm-s-paper .cm-string {
+    color: #b8b96f !important;
+}
+.CodeMirror.cm-s-default .cm-string-2,
+.CodeMirror.cm-s-paper .cm-string-2 {
+    color: #e4a064 !important;
+}
+.CodeMirror.cm-s-default .cm-meta,
+.CodeMirror.cm-s-paper .cm-meta,
+.CodeMirror.cm-s-default .cm-qualifier,
+.CodeMirror.cm-s-paper .cm-qualifier {
+    color: #e4a064 !important;
+}
+.CodeMirror.cm-s-default .cm-builtin,
+.CodeMirror.cm-s-paper .cm-builtin {
+    color: #e0ba68 !important;
+}
+.CodeMirror.cm-s-default .cm-bracket,
+.CodeMirror.cm-s-paper .cm-bracket {
+    color: #cfc6bd !important;
+}
+.CodeMirror.cm-s-default .cm-tag,
+.CodeMirror.cm-s-paper .cm-tag {
+    color: #e06e60 !important;
+}
+.CodeMirror.cm-s-default .cm-attribute,
+.CodeMirror.cm-s-paper .cm-attribute {
+    color: #e0ba68 !important;
+}
+.CodeMirror.cm-s-default .cm-hr,
+.CodeMirror.cm-s-paper .cm-hr {
+    color: #8f877f !important;
+}
+.CodeMirror.cm-s-default .cm-url,
+.CodeMirror.cm-s-paper .cm-url {
+    color: #d0c6bd !important;
+}
+.CodeMirror.cm-s-default .cm-link,
+.CodeMirror.cm-s-paper .cm-link {
+    color: #e0ba68 !important;
+}
+.CodeMirror.cm-s-default .cm-error,
+.CodeMirror.cm-s-paper .cm-error {
+    color: #e06e60 !important;
+}
