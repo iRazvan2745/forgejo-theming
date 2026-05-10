@@ -262,3 +262,25 @@
 .CodeMirror.cm-s-paper .cm-error {
     color: #e06e60 !important;
 }
+
+.CodeMirror-selected,
+.CodeMirror-focused .CodeMirror-selected,
+.cm-selectionBackground,
+.cm-editor.cm-focused .cm-selectionBackground,
+.CodeMirror-line::selection,
+.CodeMirror-line > span::selection,
+.CodeMirror-line > span > span::selection,
+.cm-content::selection,
+.cm-line::selection,
+.cm-line > span::selection,
+.cm-line > span > span::selection,
+.CodeMirror-line::-moz-selection,
+.CodeMirror-line > span::-moz-selection,
+.CodeMirror-line > span > span::-moz-selection,
+.cm-content::-moz-selection,
+.cm-line::-moz-selection,
+.cm-line > span::-moz-selection,
+.cm-line > span > span::-moz-selection {
+    color: #0d0b0a !important;
+    background-color: #8fb3d2 !important;
+}

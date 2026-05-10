@@ -245,3 +245,15 @@
     accent-color: var(--color-accent) !important;
     color-scheme: dark !important;
 }
+
+::selection,
+*::selection {
+    color: #0d0b0a !important;
+    background-color: #8fb3d2 !important;
+}
+
+::-moz-selection,
+*::-moz-selection {
+    color: #0d0b0a !important;
+    background-color: #8fb3d2 !important;
+}
