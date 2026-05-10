@@ -1,0 +1,316 @@
+/* Neutral OKLCH dark theme for Forgejo. */
+:root {
+    --background: oklch(0.1450 0 0) !important;
+    --foreground: oklch(0.9850 0 0) !important;
+    --card: oklch(0.2050 0 0) !important;
+    --card-foreground: oklch(0.9850 0 0) !important;
+    --popover: oklch(0.2690 0 0) !important;
+    --popover-foreground: oklch(0.9850 0 0) !important;
+    --primary: oklch(0.9220 0 0) !important;
+    --primary-foreground: oklch(0.2050 0 0) !important;
+    --secondary: oklch(0.2690 0 0) !important;
+    --secondary-foreground: oklch(0.9850 0 0) !important;
+    --muted: oklch(0.2690 0 0) !important;
+    --muted-foreground: oklch(0.7080 0 0) !important;
+    --accent: oklch(0.3710 0 0) !important;
+    --accent-foreground: oklch(0.9850 0 0) !important;
+    --destructive: oklch(0.7040 0.1910 22.2160) !important;
+    --destructive-foreground: oklch(0.9850 0 0) !important;
+    --border: oklch(0.2750 0 0) !important;
+    --input: oklch(0.3250 0 0) !important;
+    --ring: oklch(0.5560 0 0) !important;
+    --chart-1: oklch(0.8100 0.1000 252) !important;
+    --chart-2: oklch(0.6200 0.1900 260) !important;
+    --chart-3: oklch(0.5500 0.2200 263) !important;
+    --chart-4: oklch(0.4900 0.2200 264) !important;
+    --chart-5: oklch(0.4200 0.1800 266) !important;
+    --sidebar: oklch(0.2050 0 0) !important;
+    --sidebar-foreground: oklch(0.9850 0 0) !important;
+    --sidebar-primary: oklch(0.4880 0.2430 264.3760) !important;
+    --sidebar-primary-foreground: oklch(0.9850 0 0) !important;
+    --sidebar-accent: oklch(0.2690 0 0) !important;
+    --sidebar-accent-foreground: oklch(0.9850 0 0) !important;
+    --sidebar-border: oklch(0.2750 0 0) !important;
+    --sidebar-ring: oklch(0.4390 0 0) !important;
+    --font-sans:
+        ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji" !important;
+    --font-serif:
+        ui-serif, Georgia, Cambria, "Times New Roman", Times, serif !important;
+    --font-mono:
+        ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace !important;
+    --radius: 0.625rem !important;
+    --shadow-x: 0 !important;
+    --shadow-y: 1px !important;
+    --shadow-blur: 3px !important;
+    --shadow-spread: 0px !important;
+    --shadow-opacity: 0.1 !important;
+    --shadow-color: oklch(0 0 0) !important;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05) !important;
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05) !important;
+    --shadow-sm:
+        0 1px 3px 0px hsl(0 0% 0% / 0.10),
+        0 1px 2px -1px hsl(0 0% 0% / 0.10) !important;
+    --shadow:
+        0 1px 3px 0px hsl(0 0% 0% / 0.10),
+        0 1px 2px -1px hsl(0 0% 0% / 0.10) !important;
+    --shadow-md:
+        0 1px 3px 0px hsl(0 0% 0% / 0.10),
+        0 2px 4px -1px hsl(0 0% 0% / 0.10) !important;
+    --shadow-lg:
+        0 1px 3px 0px hsl(0 0% 0% / 0.10),
+        0 4px 6px -1px hsl(0 0% 0% / 0.10) !important;
+    --shadow-xl:
+        0 1px 3px 0px hsl(0 0% 0% / 0.10),
+        0 8px 10px -1px hsl(0 0% 0% / 0.10) !important;
+    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25) !important;
+
+    --is-dark-theme: true !important;
+    --color-primary: var(--primary) !important;
+    --color-primary-contrast: var(--primary-foreground) !important;
+    --color-primary-dark-1: oklch(0.9400 0 0) !important;
+    --color-primary-dark-2: oklch(0.9550 0 0) !important;
+    --color-primary-dark-3: oklch(0.9700 0 0) !important;
+    --color-primary-dark-4: oklch(0.9800 0 0) !important;
+    --color-primary-dark-5: oklch(0.9850 0 0) !important;
+    --color-primary-dark-6: oklch(0.9920 0 0) !important;
+    --color-primary-dark-7: oklch(1 0 0) !important;
+    --color-primary-light-1: oklch(0.8700 0 0) !important;
+    --color-primary-light-2: oklch(0.7900 0 0) !important;
+    --color-primary-light-3: oklch(0.7080 0 0) !important;
+    --color-primary-light-4: oklch(0.6200 0 0) !important;
+    --color-primary-light-5: var(--ring) !important;
+    --color-primary-light-6: var(--accent) !important;
+    --color-primary-light-7: var(--card) !important;
+    --color-primary-alpha-10: oklch(0.9220 0 0 / 0.10) !important;
+    --color-primary-alpha-20: oklch(0.9220 0 0 / 0.20) !important;
+    --color-primary-alpha-30: oklch(0.9220 0 0 / 0.30) !important;
+    --color-primary-alpha-40: oklch(0.9220 0 0 / 0.40) !important;
+    --color-primary-alpha-50: oklch(0.9220 0 0 / 0.50) !important;
+    --color-primary-alpha-60: oklch(0.9220 0 0 / 0.60) !important;
+    --color-primary-alpha-70: oklch(0.9220 0 0 / 0.70) !important;
+    --color-primary-alpha-80: oklch(0.9220 0 0 / 0.80) !important;
+    --color-primary-alpha-90: oklch(0.9220 0 0 / 0.90) !important;
+    --color-primary-hover: var(--color-primary-light-1) !important;
+    --color-primary-active: var(--color-primary-light-2) !important;
+
+    --color-secondary: var(--secondary) !important;
+    --color-secondary-dark-1: oklch(0.3250 0 0) !important;
+    --color-secondary-dark-2: var(--accent) !important;
+    --color-secondary-dark-3: oklch(0.4390 0 0) !important;
+    --color-secondary-dark-4: var(--ring) !important;
+    --color-secondary-dark-5: oklch(0.6200 0 0) !important;
+    --color-secondary-dark-6: var(--muted-foreground) !important;
+    --color-secondary-dark-7: oklch(0.7600 0 0) !important;
+    --color-secondary-dark-8: oklch(0.8200 0 0) !important;
+    --color-secondary-dark-9: oklch(0.8700 0 0) !important;
+    --color-secondary-dark-10: oklch(0.9220 0 0) !important;
+    --color-secondary-dark-11: oklch(0.9500 0 0) !important;
+    --color-secondary-dark-12: var(--foreground) !important;
+    --color-secondary-dark-13: oklch(1 0 0) !important;
+    --color-secondary-light-1: var(--card) !important;
+    --color-secondary-light-2: oklch(0.1800 0 0) !important;
+    --color-secondary-light-3: oklch(0.1650 0 0) !important;
+    --color-secondary-light-4: var(--background) !important;
+    --color-secondary-alpha-10: oklch(0.2690 0 0 / 0.10) !important;
+    --color-secondary-alpha-20: oklch(0.2690 0 0 / 0.20) !important;
+    --color-secondary-alpha-30: oklch(0.2690 0 0 / 0.30) !important;
+    --color-secondary-alpha-40: oklch(0.2690 0 0 / 0.40) !important;
+    --color-secondary-alpha-50: oklch(0.2690 0 0 / 0.50) !important;
+    --color-secondary-alpha-60: oklch(0.2690 0 0 / 0.60) !important;
+    --color-secondary-alpha-70: oklch(0.2690 0 0 / 0.70) !important;
+    --color-secondary-alpha-80: oklch(0.2690 0 0 / 0.80) !important;
+    --color-secondary-alpha-90: oklch(0.2690 0 0 / 0.90) !important;
+    --color-secondary-button: var(--input) !important;
+    --color-secondary-hover: var(--accent) !important;
+    --color-secondary-active: var(--secondary) !important;
+
+    --color-console-fg: var(--foreground) !important;
+    --color-console-fg-subtle: var(--muted-foreground) !important;
+    --color-console-bg: oklch(0.1200 0 0) !important;
+    --color-console-border: var(--border) !important;
+    --color-console-hover-bg: var(--card) !important;
+    --color-console-active-bg: var(--secondary) !important;
+    --color-console-menu-bg: var(--card) !important;
+    --color-console-menu-border: var(--border) !important;
+
+    --color-red: var(--destructive) !important;
+    --color-orange: oklch(0.7400 0.1600 60) !important;
+    --color-yellow: oklch(0.8200 0.1500 90) !important;
+    --color-olive: oklch(0.7600 0.1200 125) !important;
+    --color-green: oklch(0.7200 0.1500 145) !important;
+    --color-teal: oklch(0.7200 0.1200 185) !important;
+    --color-blue: var(--chart-1) !important;
+    --color-violet: oklch(0.7000 0.1600 290) !important;
+    --color-purple: oklch(0.7000 0.1500 315) !important;
+    --color-pink: oklch(0.7300 0.1500 345) !important;
+    --color-brown: oklch(0.6700 0.0800 55) !important;
+    --color-black: var(--background) !important;
+    --color-red-light: oklch(0.7800 0.1600 22.2160) !important;
+    --color-orange-light: oklch(0.8000 0.1300 60) !important;
+    --color-yellow-light: oklch(0.8700 0.1200 90) !important;
+    --color-olive-light: oklch(0.8200 0.1000 125) !important;
+    --color-green-light: oklch(0.8000 0.1200 145) !important;
+    --color-teal-light: oklch(0.8000 0.1000 185) !important;
+    --color-blue-light: oklch(0.8600 0.0800 252) !important;
+    --color-violet-light: oklch(0.7800 0.1200 290) !important;
+    --color-purple-light: oklch(0.7900 0.1100 315) !important;
+    --color-pink-light: oklch(0.8000 0.1200 345) !important;
+    --color-brown-light: oklch(0.7600 0.0600 55) !important;
+    --color-black-light: var(--card) !important;
+    --color-red-dark-1: oklch(0.6200 0.1800 22.2160) !important;
+    --color-orange-dark-1: oklch(0.6200 0.1400 60) !important;
+    --color-yellow-dark-1: oklch(0.6900 0.1300 90) !important;
+    --color-olive-dark-1: oklch(0.6500 0.1000 125) !important;
+    --color-green-dark-1: oklch(0.6200 0.1300 145) !important;
+    --color-teal-dark-1: oklch(0.6200 0.1000 185) !important;
+    --color-blue-dark-1: var(--chart-2) !important;
+    --color-violet-dark-1: oklch(0.6000 0.1400 290) !important;
+    --color-purple-dark-1: oklch(0.6000 0.1300 315) !important;
+    --color-pink-dark-1: oklch(0.6200 0.1300 345) !important;
+    --color-brown-dark-1: oklch(0.5600 0.0700 55) !important;
+    --color-black-dark-1: oklch(0.1200 0 0) !important;
+    --color-red-dark-2: oklch(0.5300 0.1700 22.2160) !important;
+    --color-orange-dark-2: oklch(0.5400 0.1300 60) !important;
+    --color-yellow-dark-2: oklch(0.6000 0.1200 90) !important;
+    --color-olive-dark-2: oklch(0.5600 0.0900 125) !important;
+    --color-green-dark-2: oklch(0.5400 0.1200 145) !important;
+    --color-teal-dark-2: oklch(0.5400 0.0900 185) !important;
+    --color-blue-dark-2: var(--chart-3) !important;
+    --color-violet-dark-2: oklch(0.5200 0.1300 290) !important;
+    --color-purple-dark-2: oklch(0.5200 0.1200 315) !important;
+    --color-pink-dark-2: oklch(0.5400 0.1200 345) !important;
+    --color-brown-dark-2: oklch(0.4800 0.0600 55) !important;
+    --color-black-dark-2: oklch(0.1000 0 0) !important;
+
+    --color-ansi-black: var(--background) !important;
+    --color-ansi-red: var(--color-red) !important;
+    --color-ansi-green: var(--color-green) !important;
+    --color-ansi-yellow: var(--color-yellow) !important;
+    --color-ansi-blue: var(--color-blue) !important;
+    --color-ansi-magenta: var(--color-pink) !important;
+    --color-ansi-cyan: var(--color-teal) !important;
+    --color-ansi-white: var(--color-console-fg-subtle) !important;
+    --color-ansi-bright-black: var(--accent) !important;
+    --color-ansi-bright-red: var(--color-red-light) !important;
+    --color-ansi-bright-green: var(--color-green-light) !important;
+    --color-ansi-bright-yellow: var(--color-yellow-light) !important;
+    --color-ansi-bright-blue: var(--color-blue-light) !important;
+    --color-ansi-bright-magenta: var(--color-pink-light) !important;
+    --color-ansi-bright-cyan: var(--color-teal-light) !important;
+    --color-ansi-bright-white: var(--foreground) !important;
+
+    --color-grey: var(--accent) !important;
+    --color-grey-light: var(--muted-foreground) !important;
+    --color-gold: var(--color-yellow) !important;
+    --color-white: oklch(1 0 0) !important;
+
+    --color-diff-removed-word-bg: oklch(0.3100 0.0800 22.2160) !important;
+    --color-diff-added-word-bg: oklch(0.3000 0.0700 145) !important;
+    --color-diff-removed-row-bg: oklch(0.2050 0.0450 22.2160) !important;
+    --color-diff-moved-row-bg: oklch(0.2400 0.0450 90) !important;
+    --color-diff-added-row-bg: oklch(0.2050 0.0450 145) !important;
+    --color-diff-removed-row-border: oklch(0.4500 0.0900 22.2160) !important;
+    --color-diff-moved-row-border: oklch(0.5200 0.0800 90) !important;
+    --color-diff-added-row-border: oklch(0.4300 0.0900 145) !important;
+    --color-diff-inactive: var(--card) !important;
+
+    --color-error-border: var(--color-red-dark-1) !important;
+    --color-error-bg: oklch(0.2050 0.0450 22.2160) !important;
+    --color-error-bg-active: oklch(0.2800 0.0600 22.2160) !important;
+    --color-error-bg-hover: oklch(0.2500 0.0550 22.2160) !important;
+    --color-error-text: oklch(0.8800 0.0800 22.2160) !important;
+    --color-success-border: var(--color-green-dark-1) !important;
+    --color-success-bg: oklch(0.2050 0.0450 145) !important;
+    --color-success-text: var(--color-green-light) !important;
+    --color-warning-border: var(--color-yellow-dark-1) !important;
+    --color-warning-bg: oklch(0.2200 0.0400 90) !important;
+    --color-warning-text: var(--color-yellow-light) !important;
+    --color-info-border: var(--chart-3) !important;
+    --color-info-bg: oklch(0.2050 0.0450 252) !important;
+    --color-info-text: var(--chart-1) !important;
+
+    --color-red-badge: var(--color-red) !important;
+    --color-red-badge-bg: oklch(0.7040 0.1910 22.2160 / 0.12) !important;
+    --color-red-badge-hover-bg: oklch(0.7040 0.1910 22.2160 / 0.30) !important;
+    --color-green-badge: var(--color-green) !important;
+    --color-green-badge-bg: oklch(0.7200 0.1500 145 / 0.12) !important;
+    --color-green-badge-hover-bg: oklch(0.7200 0.1500 145 / 0.30) !important;
+    --color-yellow-badge: var(--color-yellow) !important;
+    --color-yellow-badge-bg: oklch(0.8200 0.1500 90 / 0.12) !important;
+    --color-yellow-badge-hover-bg: oklch(0.8200 0.1500 90 / 0.30) !important;
+    --color-orange-badge: var(--color-orange) !important;
+    --color-orange-badge-bg: oklch(0.7400 0.1600 60 / 0.12) !important;
+    --color-orange-badge-hover-bg: oklch(0.7400 0.1600 60 / 0.30) !important;
+
+    --color-body: var(--background) !important;
+    --color-box-header: oklch(0.1800 0 0) !important;
+    --color-box-body: var(--card) !important;
+    --color-box-body-highlight: var(--secondary) !important;
+    --color-text-dark: var(--foreground) !important;
+    --color-text: oklch(0.9220 0 0) !important;
+    --color-text-light: oklch(0.8200 0 0) !important;
+    --color-text-light-1: var(--muted-foreground) !important;
+    --color-text-light-2: oklch(0.6200 0 0) !important;
+    --color-text-light-3: var(--ring) !important;
+    --color-footer: var(--color-nav-bg) !important;
+    --color-timeline: var(--border) !important;
+
+    --color-input-text: var(--foreground) !important;
+    --color-input-background: var(--card) !important;
+    --color-input-toggle-background: var(--secondary) !important;
+    --color-input-border: var(--input) !important;
+    --color-input-border-hover: var(--ring) !important;
+
+    --color-light: oklch(0.9850 0 0 / 0.07) !important;
+    --color-light-mimic-enabled: rgba(
+        250,
+        250,
+        250,
+        calc(18 / 255 * 222 / 255 / var(--opacity-disabled))
+    ) !important;
+    --color-light-border: oklch(0.9850 0 0 / 0.12) !important;
+    --color-hover: oklch(0.9850 0 0 / 0.07) !important;
+    --color-active: var(--secondary) !important;
+    --color-menu: var(--card) !important;
+    --color-card: var(--card) !important;
+    --fancy-card-bg: var(--card) !important;
+    --fancy-card-border: var(--border) !important;
+    --color-markup-table-row: oklch(0.9850 0 0 / 0.06) !important;
+    --color-markup-code-block: oklch(0.9850 0 0 / 0.07) !important;
+    --color-markup-code-inline: oklch(0.9850 0 0 / 0.12) !important;
+    --color-button: var(--card) !important;
+    --color-code-bg: oklch(0.1800 0 0) !important;
+    --color-shadow: oklch(0 0 0 / 0.45) !important;
+    --color-secondary-bg: var(--secondary) !important;
+    --color-expand-button: var(--secondary) !important;
+    --color-placeholder-text: var(--color-text-light-3) !important;
+    --color-editor-line-highlight: oklch(0.3250 0 0) !important;
+    --color-project-column-bg: var(--card) !important;
+    --color-caret: var(--foreground) !important;
+    --color-reaction-bg: oklch(0.9850 0 0 / 0.07) !important;
+    --color-reaction-hover-bg: var(--secondary) !important;
+    --color-reaction-active-bg: var(--accent) !important;
+    --color-tooltip-text: var(--foreground) !important;
+    --color-tooltip-bg: oklch(0.1200 0 0 / 0.94) !important;
+    --color-nav-bg: var(--background) !important;
+    --color-nav-hover-bg: var(--card) !important;
+    --color-nav-text: var(--color-text) !important;
+    --color-secondary-nav-bg: oklch(0.1800 0 0) !important;
+    --color-label-text: var(--color-text) !important;
+    --color-label-bg: oklch(0.7080 0 0 / 0.26) !important;
+    --color-label-hover-bg: oklch(0.7080 0 0 / 0.45) !important;
+    --color-label-active-bg: oklch(0.7080 0 0 / 0.70) !important;
+    --color-accent: var(--primary) !important;
+    --color-small-accent: var(--sidebar-primary) !important;
+    --color-highlight-fg: var(--chart-1) !important;
+    --color-highlight-bg: oklch(0.2050 0.0450 252) !important;
+    --color-overlay-backdrop: oklch(0 0 0 / 0.70) !important;
+    --checkerboard-color-1: var(--input) !important;
+    --checkerboard-color-2: var(--card) !important;
+    accent-color: var(--sidebar-primary) !important;
+    color-scheme: dark !important;
+}
