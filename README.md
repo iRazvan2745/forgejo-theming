@@ -22,7 +22,7 @@ Main Forgejo theme colors.
 
 Neutral OKLCH dark theme based on the CSS tokens.
 
-![Neutral theme preview](./preview/neutral-theme.svg)
+![Neutral theme preview](./preview/neutral-theme.png)
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/irazvan2745/forgejo-theming/modules/neutral-theme.css");
