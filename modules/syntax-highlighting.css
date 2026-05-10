@@ -281,6 +281,7 @@
 .cm-line::-moz-selection,
 .cm-line > span::-moz-selection,
 .cm-line > span > span::-moz-selection {
-    color: #0d0b0a !important;
-    background-color: #8fb3d2 !important;
+    color: var(--rizz-selection-fg, #0d0b0a) !important;
+    background-color: var(--rizz-selection-bg, #8fb3d2) !important;
+    text-shadow: none !important;
 }

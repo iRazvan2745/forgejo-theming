@@ -239,6 +239,8 @@
     --color-small-accent: #4a332a !important;
     --color-highlight-fg: #d6a84f !important;
     --color-highlight-bg: #302715 !important;
+    --rizz-selection-fg: #0d0b0a !important;
+    --rizz-selection-bg: #8fb3d2 !important;
     --color-overlay-backdrop: #080706c0 !important;
     --checkerboard-color-1: #302b27 !important;
     --checkerboard-color-2: #1a1715 !important;
@@ -247,13 +249,25 @@
 }
 
 ::selection,
-*::selection {
-    color: #0d0b0a !important;
-    background-color: #8fb3d2 !important;
+*::selection,
+html[data-theme="rizz"]::selection,
+html[data-theme="rizz"] *::selection,
+html[data-theme="rizz"] input::selection,
+html[data-theme="rizz"] textarea::selection,
+html[data-theme="rizz"] [contenteditable]::selection {
+    color: var(--rizz-selection-fg) !important;
+    background-color: var(--rizz-selection-bg) !important;
+    text-shadow: none !important;
 }
 
 ::-moz-selection,
-*::-moz-selection {
-    color: #0d0b0a !important;
-    background-color: #8fb3d2 !important;
+*::-moz-selection,
+html[data-theme="rizz"]::-moz-selection,
+html[data-theme="rizz"] *::-moz-selection,
+html[data-theme="rizz"] input::-moz-selection,
+html[data-theme="rizz"] textarea::-moz-selection,
+html[data-theme="rizz"] [contenteditable]::-moz-selection {
+    color: var(--rizz-selection-fg) !important;
+    background-color: var(--rizz-selection-bg) !important;
+    text-shadow: none !important;
 }
