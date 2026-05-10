@@ -2,7 +2,7 @@
 
 Make your Forgejo instance look better with small CSS modules.
 
-> **Warning**: this CSS is AI-generated.
+> **Warning**: GPT 5.5 xhigh was used to adapt forgejo css over to a theme of another project i have
 
 ## Modules
 
