@@ -18,6 +18,14 @@ Main Forgejo theme colors.
 @import url("https://cdn.jsdelivr.net/gh/irazvan2745/forgejo-theming/modules/mocha-theme.css");
 ```
 
+### `rose-pine-theme.css`
+
+Rosé Pine main dark theme colors.
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/irazvan2745/forgejo-theming/modules/rose-pine-theme.css");
+```
+
 ### `neutral-theme.css`
 
 Neutral OKLCH dark theme based on the CSS tokens.
@@ -69,6 +77,12 @@ To use the mocha theme instead, swap the first import:
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/irazvan2745/forgejo-theming/modules/mocha-theme.css");
+```
+
+To use the Rosé Pine theme instead, swap the first import:
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/irazvan2745/forgejo-theming/modules/rose-pine-theme.css");
 ```
 
 ## Docker Setup
